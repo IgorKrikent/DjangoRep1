@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+
+   <h2> Welcome! </h2>
+   <p> You are logged in as {{ user_data.username }} </p>
+    Email: {{ user_data.email }}
+
+<p><a href="{% url 'game' %}"> Want to play a game? </a></p>
+
+<p><a href="{% url 'authorize' %}"> Courses </a></p>
+
+</body>
+</html>
